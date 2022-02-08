@@ -127,6 +127,9 @@ const links = [
 
 // markup
 const IndexPage = () => {
+  const tesObj = {
+    name: 'gatsby';
+  }
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
